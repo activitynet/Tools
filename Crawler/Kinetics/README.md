@@ -16,5 +16,5 @@ pip install --upgrade youtube-dl
 
 Finally, download a dataset split by calling:
 ```
-mkdir <data_dir>; python download.py {dataset_split}.csv <data_dir>
+mkdir <data_dir>; python download.py data/{dataset_split}.csv <data_dir>
 ```
